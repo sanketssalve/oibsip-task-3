@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body h1,
+h2,
+h3,
+label {
+  color: blue;
+} 
+.wrapper {
+  width: 500px;
+  background-color: #ffffff;
+  padding: 70px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
+button {
+  margin-top: -12px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.display-result {
+  margin-right: 200px;
+  color: red;
+  width: 2000px;
+  background-color: #ffffff;
+  padding: 70px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 74%;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  background: blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.display-result > h1 {
+  padding: 4pxpx;
+  color: blue;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 2px;
+  font-weight: 100px;
+  font-size: 20px;
+}
